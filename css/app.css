@@ -1,2 +1,4 @@
 /* base */
-@import "./base/_.css"
+@import "./base/_.css";
+/* loyout */
+@import "./layout/_.css";

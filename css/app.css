@@ -2,3 +2,5 @@
 @import "./base/_.css";
 /* loyout */
 @import "./layout/_.css";
+/* companents */
+@import "./components/_.css";

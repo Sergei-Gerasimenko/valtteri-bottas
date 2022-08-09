@@ -1,7 +1,7 @@
 .nav-menu {
     display: flex;
     align-items: center;
-    padding: 10px 0 12px;
+    padding-top: 10px;
     list-style-type: none;
 }
 .nav-menu__link {
@@ -10,5 +10,6 @@
     text-decoration: none;
     font-weight: 400;
     color: rgb(255, 255, 255, 0.8);
-
+    line-height: 24px;
+    font-size: 20px;
 }

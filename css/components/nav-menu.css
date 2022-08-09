@@ -1,5 +1,11 @@
 .nav-menu {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 0 0 0;
+    width: 434px;
+    height: 46px;
 }
 .nav-menu__link {
     color: white;

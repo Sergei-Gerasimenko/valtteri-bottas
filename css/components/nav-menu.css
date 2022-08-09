@@ -4,4 +4,6 @@
 .nav-menu__link {
     color: white;
     text-decoration: none;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.8);
 }

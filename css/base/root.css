@@ -1,5 +1,5 @@
 :root {
     --z-index-sticky: 1010;
-    --z-index-fixed: 1011;
-    --z-index-menu: 1012;
+    --z-index-menu: 1011;
+    --z-index-fixed: 1012;
 }

@@ -1,0 +1,35 @@
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+    margin-right: 12px;
+}
+
+.social__item:hover {
+    background-color: #0B79CB;
+    border-color: #0B79CB;
+}
+
+.social__icon {
+    width: 40%;
+    height: 40%;
+    color: #FFF;
+}
+
+@media screen and (max-width: 1200px) {
+    .social__item {
+        width: 32px;
+        height: 32px;
+    }
+}

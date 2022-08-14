@@ -4,6 +4,7 @@
     --z-index-fixed: 1012;
     --padding-offset: 35px 40px;
 }
+
 @media screen and (max-width: 1200px) {
     :root {
         --padding-offset: 30px;

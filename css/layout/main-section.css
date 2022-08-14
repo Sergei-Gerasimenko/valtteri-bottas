@@ -5,4 +5,10 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    background-color:  #2C353D;
+}
+
+.main-section__item {
+    height: 100vh;
+    width: 100%;
 }

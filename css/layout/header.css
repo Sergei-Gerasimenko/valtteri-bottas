@@ -1,24 +1,11 @@
 .header {
     width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: var(--z-index-fixed);
 }
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 40px;
-    margin-right: 40px;
-}
-
-@media screen and (max-width: 1200px) {
-    .header__container {
-        padding: 30px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .header__container {
-        padding: 20px 15px;
-    }
+    padding: var(--padding-offset);
 }

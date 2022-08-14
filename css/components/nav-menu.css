@@ -10,9 +10,13 @@
 .nav-menu__link {
     margin-left: 30px;
     text-decoration: none;
-    color: rgb(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     line-height: 1.2;
     font-size: 20px;
+    transition: color 0.4s ease-out;
+}
+.nav-menu__link:hover {
+    color: #fff;
 }
 @media screen and (max-width: 1200px) {
     .nav-menu {

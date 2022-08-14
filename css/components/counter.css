@@ -1,0 +1,39 @@
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.counter__arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter__arrows-prev, .counter__arrows-next {
+    height: 23px;
+    width: 15px;
+    margin: 0 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.counter__numbers {
+    display: flex;
+    align-items: center;
+}
+
+.counter__numbers-current, .couner__number-total {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+    font-style: italic;
+}
+
+.counter__numbers-line {
+    height: 40px;
+    width: 5px;
+    background: #fff;
+    margin: auto 5px 0 15px;
+    transform: rotate(40deg);
+}

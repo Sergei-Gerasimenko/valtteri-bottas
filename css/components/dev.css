@@ -1,0 +1,23 @@
+.dev {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.dev__item {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.dev__item--transparent {
+    opacity: 0.2;
+}
+
+.dev__line {
+    height: 24px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 12px;
+}

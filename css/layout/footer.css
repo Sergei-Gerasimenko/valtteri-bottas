@@ -1,5 +1,6 @@
 .footer {
     display: flex;
+    flex-direction: column;
     position: absolute;
     left: 0;
     right: 0;
@@ -7,6 +8,12 @@
 }
 
 .footer__content {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     padding: var(--padding-offset);
 }
+
+.footer__progress {
+    width: 100%;
+} 

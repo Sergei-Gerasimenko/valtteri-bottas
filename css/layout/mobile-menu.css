@@ -9,6 +9,8 @@
     background: #0B79CB;
 }
 
-body.is-mobile-menu-active .mobile-menu {
-    display: block;
+@media screen and (max-width: 1200px) {
+    body.is-mobile-menu-active .mobile-menu {
+        display: block;
+    }
 }

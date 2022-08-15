@@ -4,7 +4,8 @@
 @import "./layout/_.css";
 /* companents */
 @import "./components/_.css";
-
+/* companents */
+@import "./main_BG/_.css";
 /* 
 @media breakpoints
 1200 -> 768 figma

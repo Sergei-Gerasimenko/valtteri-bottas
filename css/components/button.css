@@ -1,0 +1,23 @@
+.button-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+}
+
+.button-wrapper__primary, .button-wrapper__secondry {
+    width: 244px;
+    height: 64px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    color: #fff;
+}
+
+.button-wrapper__primary {
+    border: 0px;
+    background: linear-gradient(259.83deg, #01CDBA 0%, #0D72CD 100%)
+    
+
+}

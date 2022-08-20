@@ -7,22 +7,31 @@
 
 .button-wrapper__primary, .button-wrapper__secondry {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 244px;
     height: 64px;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
     color: #fff;
-    margin-left: 15px;
+    margin-left: 30px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    border-style: none;
     background: transparent;
+    text-decoration: none;
+    z-index: 2;
 }
 
-.button-wrapper__primary:hover, .button-wrapper__secondry:hover {
-    background: linear-gradient(259.83deg, #01CDBA 0%, #0D72CD 100%);
-    transform: skewX(-20deg);
+.button-wrapper__primary::before, .button-wrapper__secondry::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #fff;
+    z-index: 0;
+    transform: skew(-20deg);
+}
+
+.button-wrapper__primary::after, .button-wrapper__secondry::after {
+    
 }

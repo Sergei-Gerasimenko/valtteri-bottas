@@ -44,3 +44,16 @@
     transform: skewX(-18deg);
     z-index: -1;
 }
+
+@media screen and (max-width: 1200px) {
+    .button-wrapper {
+        width: 364px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .button-wrapper__primary, .button-wrapper__secondry {
+        font-size: 14px;
+    }
+}

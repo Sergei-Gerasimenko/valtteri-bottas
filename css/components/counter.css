@@ -31,9 +31,23 @@
 }
 
 .counter__numbers-line {
-    height: 40px;
-    width: 5px;
+    height: 31px;
+    width: 4px;
     background: #fff;
-    margin: auto 5px 0 15px;
-    transform: rotate(40deg);
+    margin: auto 5px 5px 12px;
+    transform: skewX(-40deg);
+}
+
+@media screen and (max-width: 1200px) {
+    .counter__numbers-current, .couner__number-total {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .counter__numbers-line {
+        height: 18px;
+        width: 2px;
+        margin: auto 4px 1px 6px;
+    }
 }

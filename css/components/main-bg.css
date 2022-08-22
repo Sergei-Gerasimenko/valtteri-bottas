@@ -54,3 +54,12 @@
         font-size: 60px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .second-title {
+        width: 364px;
+        height: 234px;
+        top: 171px;
+        left: calc(50% - 364px/2);
+    }
+}

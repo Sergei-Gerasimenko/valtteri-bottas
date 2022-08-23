@@ -44,22 +44,37 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .second-title__average {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .second-title__big {
-        font-size: 60px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
     .second-title {
         width: 364px;
         height: 234px;
         top: 171px;
         left: calc(50% - 364px/2);
+    }
+    .second-title__big {
+        font-size: 60px;
+    }
+    .second-title__average {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .second-title {
+        top: 267px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .second-title {
+        width: 204px;
+        height: 252px;
+        left: calc(50% - 204px/2);
+        top: 197px;
+    }
+    .second-title__big {
+        font-size: 36px;
+    }
+    .second-title__average {
+        font-size: 16px;
     }
 }

@@ -33,6 +33,7 @@
     background: linear-gradient(259.83deg, #01CDBA 0%, #0D72CD 100%);
     transform: skew(-18deg);
     z-index: -1;
+    transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
 }
 
 .button-wrapper__secondry::after {
@@ -44,6 +45,16 @@
     outline-offset: -4px;
     transform: skewX(-18deg);
     z-index: -1;
+    transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+}
+
+.button-wrapper__secondry:hover::after {
+    outline: #01CDBA;
+    background-color: #01CDBA;
+}
+
+.button-wrapper__primary:hover::after {
+    background: #0B79CB;
 }
 
 @media screen and (max-width: 1200px) {

@@ -50,17 +50,11 @@
     .counter__numbers-current, .couner__number-total {
         font-size: 22px;
     }
-}
-
-@media screen and (max-width: 1200px) {
     .counter__numbers-line {
         height: 18px;
         width: 2px;
         margin: auto 4px 1px 6px;
     }
-}
-
-@media screen and (max-width: 1200px) {
     .shell__arrows {
         width: 32px;
         height: 32px;

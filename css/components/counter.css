@@ -26,8 +26,6 @@
 
 .counter__numbers {
     display: flex;
-    align-items: center;
-    align-items: center;
 }
 
 .counter__numbers-current, .couner__number-total {

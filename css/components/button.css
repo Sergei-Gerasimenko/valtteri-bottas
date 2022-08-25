@@ -23,6 +23,7 @@
     z-index: 1;
     margin: 0 10px;
     border-style: none;
+    cursor: pointer;
 }
 
 .button-wrapper__primary::after {

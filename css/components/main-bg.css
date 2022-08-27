@@ -58,13 +58,13 @@
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
     .second-title {
         top: 267px;
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 575px){
     .second-title {
         width: 204px;
         height: 252px;

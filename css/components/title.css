@@ -1,0 +1,23 @@
+.second_title {
+    display: flex;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.main_title {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 180px;
+    line-height: 1;
+    background: linear-gradient(259.83deg, #01CDBA 0%, #0D72CD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 40px;
+}

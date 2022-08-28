@@ -1,82 +1,54 @@
-.button-wrapper {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0;
-    width: 488px;
-    height: 64px;
-}
-
-.button-wrapper__primary, .button-wrapper__secondry {
+.btns-primary, .btns-secondry {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
     color: #fff;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     background: transparent;
-    text-decoration: none;
-    z-index: 1;
-    margin: 0 10px;
     border-style: none;
     cursor: pointer;
 }
 
-.button-wrapper__primary::after {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: "";
-    background: linear-gradient(259.83deg, #01CDBA 0%, #0D72CD 100%);
-    transform: skew(-18deg);
-    z-index: -1;
-    transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+.btns-primary {
+    padding: 18px 74px 22px;
 }
 
-.button-wrapper__secondry::after {
+.btns-secondry {
+    padding: 18px 95px 22px;
+}
+
+.btns-secondry::after {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 5%;
+    left: 5%;
     content: "";
     outline: 4px solid #fff;
     outline-offset: -4px;
     transform: skewX(-18deg);
-    z-index: -1;
     transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+    z-index: -1;
 }
 
-.button-wrapper__secondry:hover::after {
-    outline: #01CDBA;
-    background-color: #01CDBA;
+.btns-primary::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5%;
+    left: 5%;
+    content: "";
+    background: linear-gradient(259.83deg, #01CDBA 0%, #0D72CD 100%);
+    transform: skew(-18deg);
+    transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+    z-index: -1;
 }
 
-.button-wrapper__primary:hover::after {
+.btns-primary:hover::after {
     background: #0B79CB;
 }
 
-@media screen and (max-width: 1200px) {
-    .button-wrapper {
-        width: 364px;
-        height: 46px;
-    }
-    .button-wrapper__primary, .button-wrapper__secondry {
-        font-size: 14px;
-        margin: 0 16px;
-    }
+.btns-secondry:hover::after {
+    outline: #01CDBA;
+    background-color: #01CDBA;
 }
-
-@media screen and (max-width: 375px) {
-    .button-wrapper {
-        align-items: center;
-        flex-direction: column;
-        width: 174px;
-        height: 108px;
-    }
-    .button-wrapper__primary {
-        margin-bottom: 16px;
-    }
-} 

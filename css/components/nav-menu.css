@@ -1,38 +1,39 @@
 .nav-menu {
     display: flex;
-    align-items: center;
     padding-top: 10px;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    height: 100%;
 } 
+
+.nav-menu__item {
+    margin-left: 30px;
+}
 
 .nav-menu__link {
     position: relative;
     display: block;
-    margin-left: 30px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
     line-height: 1.2;
     font-size: 20px;
     transition: color 0.4s ease-out;
-    z-index: 4;
 }
 
 .nav-menu__link::after {
     display: block;
     position: absolute;
     content: "";
+    height: 3px;
     width: 100%;
-    transition: border-bottom 0.1s ease-out;
-    z-index: -1;
+    transition: background-color 0.4s ease-out;
     transform: skewX(-40deg);
     margin-top: 9px;
+    background-color: transparent;
 }
 
 .nav-menu__link:hover::after {
-    border-bottom: 3px solid #fff;
+    background-color: #fff;
 }
 
 .nav-menu__link:hover {

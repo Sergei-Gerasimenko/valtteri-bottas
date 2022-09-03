@@ -21,3 +21,13 @@
     text-fill-color: transparent;
     padding: 40px;
 }
+
+@media screen and (max-width: 1200px) {
+    .second_title {
+        font-size: 20px;
+    }
+
+    .main_title {
+        font-size: 60px;
+    }
+}

@@ -52,6 +52,7 @@
     outline: #01CDBA;
     background-color: #01CDBA;
 }
+
 @media screen and (max-width: 1200px) {
     .btn_primary, .btn_secondry {
         font-size: 14px;
@@ -64,4 +65,22 @@
     .btn_secondry {
         padding: 13px 67px 16px;
     }
+    .btn-container__item{
+        margin: 0px 8px;
+    }
 }
+
+@media screen and (max-width: 575px) {
+    .btn-container {
+        display: flex;
+        align-content: flex-start;
+        flex-direction: column;
+    }
+
+    .btn-container__item {
+        margin-bottom: 16px;
+    }
+
+    .btn-container__item:last-child {
+        margin-bottom: 0px;
+    }

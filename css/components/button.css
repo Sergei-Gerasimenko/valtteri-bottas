@@ -52,3 +52,8 @@
     outline: #01CDBA;
     background-color: #01CDBA;
 }
+@media screen and (max-width: 1200px) {
+    .btn_primary, .btn_secondry {
+        font-size: 14px;
+    }
+}

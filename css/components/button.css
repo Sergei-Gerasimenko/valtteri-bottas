@@ -53,6 +53,10 @@
     background-color: #01CDBA;
 }
 
+.btn-container__item:last-child {
+    margin-bottom: 0px;
+}
+
 @media screen and (max-width: 1200px) {
     .btn_primary, .btn_secondry {
         font-size: 14px;
@@ -80,7 +84,4 @@
     .btn-container__item {
         margin-bottom: 16px;
     }
-
-    .btn-container__item:last-child {
-        margin-bottom: 0px;
-    }
+}

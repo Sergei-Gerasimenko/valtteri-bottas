@@ -56,4 +56,12 @@
     .btn_primary, .btn_secondry {
         font-size: 14px;
     }
+
+    .btn_primary {
+        padding: 13px 53px 16px;
+    }
+    
+    .btn_secondry {
+        padding: 13px 67px 16px;
+    }
 }

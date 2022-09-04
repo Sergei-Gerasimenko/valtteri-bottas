@@ -19,7 +19,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    padding: 40px;
+    padding: 32px 32px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -29,5 +29,17 @@
 
     .main_title {
         font-size: 60px;
+        padding: 8px 12px 32px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .second_title {
+        font-size: 16px;
+    }
+    
+    .main_title {
+        font-size: 36px;
+        padding: 12px 12px 32px;
     }
 }

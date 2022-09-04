@@ -14,17 +14,30 @@
     text-decoration: none;
     transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
     margin-right: 12px;
+    padding: 0px;
 }
 
 .social__item:hover {
     background-color: #0B79CB;
-    border-color: #0B79CB;
+    border-color: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .social__icon {
     width: 40%;
     height: 40%;
     color: #FFF;
+}
+
+.social__item_mobile:hover {
+    background-color: #FFF;
+}
+
+.social__icon_mobile {
+    color: #FFF;
+}
+
+.social__icon_mobile:hover {
+    color: #0B79CB;
 }
 
 @media screen and (max-width: 1200px) {

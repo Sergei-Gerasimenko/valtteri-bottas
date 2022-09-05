@@ -1,12 +1,3 @@
-.second_title {
-    display: flex;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 1.2;
-    color: #fff;
-}
-
 .main_title {
     display: flex;
     justify-content: center;
@@ -23,10 +14,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .second_title {
-        font-size: 20px;
-    }
-
     .main_title {
         font-size: 60px;
         padding: 8px 12px 32px;
@@ -34,10 +21,6 @@
 }
 
 @media screen and (max-width: 375px) {
-    .second_title {
-        font-size: 16px;
-    }
-    
     .main_title {
         font-size: 36px;
         padding: 12px 12px 32px;

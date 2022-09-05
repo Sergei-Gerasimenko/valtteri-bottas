@@ -1,0 +1,20 @@
+.second-title {
+    display: flex;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .second-title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .second-title {
+        font-size: 16px;
+    }
+}

@@ -1,4 +1,4 @@
-.main_title {
+.main-title {
     display: flex;
     justify-content: center;
     font-weight: 900;
@@ -14,14 +14,14 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .main_title {
+    .main-title {
         font-size: 60px;
         padding: 8px 12px 32px;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .main_title {
+    .main-title {
         font-size: 36px;
         padding: 12px 12px 32px;
     }

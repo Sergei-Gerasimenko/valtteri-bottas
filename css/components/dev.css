@@ -20,9 +20,6 @@
     margin: 0 12px;
 }
 
-.dev__line--mobile {
-    color: rgba(255, 255, 255, 0.8);
-}
 .dev__line--horizontal {
     transform: rotate(90deg);
 }

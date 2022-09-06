@@ -17,9 +17,6 @@
     padding: 0px;
 }
 
-.social__item:last-child {
-    margin: 0;
-}
 
 .social__item:hover {
     background-color: #0B79CB;
@@ -32,15 +29,15 @@
     color: #FFF;
 }
 
-.social__item_mobile:hover {
+.social__item--mobile:hover {
     background-color: #FFF;
 }
 
-.social__icon_mobile {
+.social__icon--mobile {
     color: #FFF;
 }
 
-.social__icon_mobile:hover {
+.social__icon--mobile:hover {
     color: #0B79CB;
 }
 
@@ -52,5 +49,21 @@
     .social__item {
         width: 32px;
         height: 32px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .social--mobile {
+        width: 76px;
+        height: 76px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .social__item--mobile {
+        margin: 0px;
+    }
+    .social--mobile {
+        margin: 25px 0px 96px;
     }
 }

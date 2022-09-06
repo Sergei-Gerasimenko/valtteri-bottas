@@ -1,6 +1,6 @@
 .dev {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .dev__item {

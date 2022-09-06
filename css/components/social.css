@@ -60,9 +60,11 @@
         justify-content: space-between;
         align-content: space-between;
     }
+
     .social__item--mobile {
         margin: 0px;
     }
+
     .social--mobile {
         margin: 25px 0px 96px;
     }

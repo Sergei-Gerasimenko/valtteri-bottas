@@ -17,6 +17,10 @@
     padding: 0px;
 }
 
+.social__item:last-child {
+    margin: 0;
+}
+
 .social__item:hover {
     background-color: #0B79CB;
     border-color: 1px solid rgba(255, 255, 255, 0.1);
@@ -38,6 +42,10 @@
 
 .social__icon_mobile:hover {
     color: #0B79CB;
+}
+
+.social--mobile {
+    margin: 50px 0px 96px;
 }
 
 @media screen and (max-width: 1200px) {

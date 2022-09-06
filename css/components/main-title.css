@@ -1,6 +1,4 @@
 .main-title {
-    display: flex;
-    justify-content: center;
     font-weight: 900;
     font-style: italic;
     font-size: 180px;
@@ -10,19 +8,17 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    padding: 32px 32px;
+    margin: 32px 0px 32px;
 }
 
 @media screen and (max-width: 1200px) {
     .main-title {
         font-size: 60px;
-        padding: 8px 12px 32px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .main-title {
         font-size: 36px;
-        padding: 12px 12px 32px;
     }
 }

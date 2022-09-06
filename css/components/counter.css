@@ -15,9 +15,9 @@
 
 .counter__arrows-prev, .counter__arrows-next {
     display: flex;
-    height: 23px;
-    width: 15px;
-    margin: 0 15px;
+    height: 20px;
+    width: 20px;
+    margin: 0 20px;
     cursor: pointer;
     color: #fff;
 }

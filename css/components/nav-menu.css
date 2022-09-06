@@ -39,6 +39,7 @@
 .nav-menu__link:hover {
     color: #fff;
 }
+
 @media screen and (max-width: 1200px) {
     .nav-menu {
         display: none;

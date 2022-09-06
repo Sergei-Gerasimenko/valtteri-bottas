@@ -13,8 +13,14 @@
     justify-content: space-between;
     width: 100%;
     padding: var(--padding-offset);
+    padding-bottom: 32px;
 }
 
 .footer__progress {
     width: 100%;
 } 
+
+.footer__dev {
+    display: flex;
+    align-items: flex-end;
+}

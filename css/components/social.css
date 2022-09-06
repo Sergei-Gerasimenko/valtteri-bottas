@@ -1,6 +1,6 @@
 .social {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .social__item {
@@ -11,12 +11,9 @@
     height: 44px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    text-decoration: none;
     transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
     margin-right: 12px;
-    padding: 0px;
 }
-
 
 .social__item:hover {
     background-color: #0B79CB;

@@ -65,6 +65,8 @@
     }
     .counter__arrows-prev, .counter__arrows-next {
         margin: 0px;
+        height: 12px;
+        width: 12px;
     }
 }
 

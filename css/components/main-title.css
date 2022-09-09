@@ -20,12 +20,14 @@
 
 @media screen and (max-width: 767px) {
     .main-title {
-        margin: 8px 0px 32px;
+        margin: 8px 0px 37px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .main-title {
         font-size: 36px;
+        margin: 12px 0px 36px;
+        line-height: 1.1;
     }
 }

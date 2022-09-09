@@ -20,4 +20,8 @@
     .btn-container__item {
         margin-bottom: 16px;
     }
+
+    .btn-container__item:last-child {
+        margin-bottom: 0;
+    }
 }

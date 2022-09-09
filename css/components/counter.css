@@ -70,11 +70,11 @@
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 375px) {
     .counter {
         position: absolute;
         transform: rotate(-90deg);
-        right: -50px;
-        bottom: 90px;
+        right: -53px;
+        bottom: 80px;
     }
 }

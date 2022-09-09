@@ -1,11 +1,12 @@
 .btn-container {
     display: flex;
     justify-content: center;
+    
 }
 
 @media screen and (max-width: 1200px) {
     .btn-container__item{
-        margin: 0px 8px;
+        margin: 0px 7px;
     }
 }
 

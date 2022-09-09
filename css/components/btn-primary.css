@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 1200px) {
     .btn-primary {
-        padding: 13px 53px 16px;
+        padding: 13px 53px 16px 55px;
         font-size: 14px;
     }
 }

@@ -7,9 +7,9 @@
 }
 
 .hero__content {
-    max-width: 70%;
+    max-width: 60%;
     display: flex;
-    text-align: center; 
+    text-align: center;
     align-items: center;
     flex-direction: column;
     z-index: 1;

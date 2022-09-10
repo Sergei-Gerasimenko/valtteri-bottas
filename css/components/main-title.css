@@ -9,6 +9,7 @@
     background-clip: text;
     text-fill-color: transparent;
     margin: 32px 0px 32px;
+    padding: 0px 25px;
 }
 
 @media screen and (max-width: 1200px) {

@@ -43,13 +43,17 @@
 }
 
 .social--mobile {
-    margin: 4vh 0 11vh;
+    
 }
 
 @media screen and (max-width: 1200px) {
     .social__item {
         width: 32px;
         height: 32px;
+    }
+
+    .social--mobile {
+        margin: 4vh 0 11vh;
     }
 }
 

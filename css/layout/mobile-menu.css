@@ -30,7 +30,7 @@
     justify-content: center;
     width: 100%;
     border-bottom: 1px solid #1D96D0;
-    padding: 17% 0;
+    padding: 16% 0 17%;
 }
 
 .mobile-menu__item:last-child {
@@ -51,10 +51,18 @@
     body.is-mobile-menu-active .mobile-menu {
         display: block;
     }
+
+    .mobile-menu__list {
+        margin: 16vh 0 0;
+    }
 }
 
 @media screen and (max-width: 375px) {
     .mobile-menu__list {
         margin: 13vh 0 0;
+    }
+
+    .mobile-menu__item {
+        padding: 17% 0; 
     }
 }

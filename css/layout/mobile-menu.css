@@ -13,8 +13,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    margin-top:16vh;
 }
 
 .mobile-menu__list{
@@ -24,7 +23,7 @@
     align-items: center;
     padding: 0;
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
 }
 
 .mobile-menu__item {
@@ -33,7 +32,7 @@
     justify-content: center;
     width: 100%;
     border-bottom: 1px solid #1D96D0;
-    padding: 20px 0px 20px;
+    padding: 20px 0px 19px;
 }
 
 .mobile-menu__item:last-child {

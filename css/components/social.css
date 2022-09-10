@@ -60,13 +60,10 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
+        margin: 1vh 0 11vh;
     }
 
     .social__item--mobile {
         margin: 0px;
-    }
-
-    .social--mobile {
-        margin: 25px 0px 96px;
     }
 }

@@ -13,7 +13,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top:16vh;
 }
 
 .mobile-menu__list{
@@ -23,7 +22,6 @@
     align-items: center;
     padding: 0;
     list-style-type: none;
-    margin: 0px;
 }
 
 .mobile-menu__item {
@@ -32,7 +30,7 @@
     justify-content: center;
     width: 100%;
     border-bottom: 1px solid #1D96D0;
-    padding: 20px 0px 19px;
+    padding: 17% 0;
 }
 
 .mobile-menu__item:last-child {
@@ -52,5 +50,11 @@
 @media screen and (max-width: 1200px) {
     body.is-mobile-menu-active .mobile-menu {
         display: block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .mobile-menu__list {
+        margin: 13vh 0 0;
     }
 }

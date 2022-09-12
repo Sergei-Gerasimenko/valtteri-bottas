@@ -1,5 +1,11 @@
 .title-text {
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 5vh;
+}
+
+.about__content-title {
+    margin-bottom: 1%;
 }

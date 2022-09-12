@@ -1,0 +1,6 @@
+.about-left__img {
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    object-fit: cover;
+}

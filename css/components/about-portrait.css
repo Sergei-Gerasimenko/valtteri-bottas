@@ -1,5 +1,19 @@
 .about-portrait__img {
     float: left;
     object-fit: cover;
-    margin-right: 89px;
+    margin-right: 88px;
+}
+
+@media screen and (max-width: 1200px) {
+    .about-portrait__img {
+        margin: 0 16px 0 10%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .about-portrait__img {
+        margin: 0;
+    }
+    
 }

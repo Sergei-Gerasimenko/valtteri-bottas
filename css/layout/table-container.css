@@ -3,3 +3,9 @@
     left: 0;
     bottom: 241px;
 }
+
+@media screen and (max-width: 1200px) {
+    .table-container {
+        display: none;
+    }
+}

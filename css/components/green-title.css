@@ -1,0 +1,10 @@
+.green-title {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 160px;
+    line-height: 1.1;
+    text-align: center;
+    color:#01CDBA;
+}

@@ -42,10 +42,6 @@
     color: #0B79CB;
 }
 
-.social--mobile {
-    
-}
-
 @media screen and (max-width: 1200px) {
     .social__item {
         width: 32px;

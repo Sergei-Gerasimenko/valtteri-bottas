@@ -1,0 +1,4 @@
+.about-portrait__img {
+    float: left;
+    object-fit: cover;
+}

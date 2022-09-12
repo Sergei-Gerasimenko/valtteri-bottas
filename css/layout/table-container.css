@@ -1,7 +1,7 @@
 .table-container {
     position: absolute;
     left: 0;
-    bottom: 241px;
+    bottom: 22vh;
 }
 
 @media screen and (max-width: 1200px) {

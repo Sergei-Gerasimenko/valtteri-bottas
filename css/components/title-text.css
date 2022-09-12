@@ -23,7 +23,14 @@
 
 @media screen and (max-width: 1200px) {
     .title-text {
-        margin: 0 0 2%;
+        margin: 0 0 1%;
         align-items: center;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .title-text {
+        margin: 0 0 10%;
+    }
+}
+

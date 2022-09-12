@@ -1,0 +1,11 @@
+.about-up__img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+}
+
+@media screen and (min-width: 375px) {
+    .about-up__img {
+        display: none;
+    }
+}

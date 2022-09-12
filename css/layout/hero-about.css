@@ -12,7 +12,7 @@
     position: absolute;
     bottom: 0;
     height: 83vh;
-    width: 65%;
+    width: 69%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -34,9 +34,15 @@
     .hero-about__content {
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
-        padding: 0 85px 0 81px;
-        height: 84vh;
+        padding: 0 15% 0 14%;
+        height: 85vh;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero-about__content {
+        height: 75vh;
+        padding: 0px 7% 0 6%;
     }
 }

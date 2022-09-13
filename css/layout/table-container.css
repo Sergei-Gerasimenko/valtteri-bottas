@@ -1,6 +1,7 @@
 .table-container {
-    position: relative;
-}
+    display: flex;
+    width: 100%;
+    margin-top: 3vh;
 
 @media screen and (max-width: 1200px) {
     .table-container {

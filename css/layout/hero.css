@@ -14,3 +14,10 @@
     flex-direction: column;
     z-index: 1;
 }
+
+.hero__content--partners {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}

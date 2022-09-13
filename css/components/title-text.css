@@ -32,3 +32,11 @@
         top: 25vh;
     }
 }
+
+.title-text--partners {
+    width: 100%;
+    position: relative;
+    top: 0;
+    flex-direction: unset;
+    align-items: flex-start;
+}

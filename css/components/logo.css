@@ -9,3 +9,7 @@
         height: 41px;
     }
 }
+
+.logo__partners {
+    display: flex;
+}

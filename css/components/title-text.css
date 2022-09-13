@@ -7,9 +7,11 @@
     flex-direction: column;
     top: 22vh;
 }
+
 .about__content-title {
     margin-bottom: 3vh;
 }
+
 @media screen and (max-width: 1200px) {
     .title-text {
         align-items: flex-start;
@@ -27,7 +29,6 @@
 
 @media screen and (max-width: 375px) {
     .title-text {
-        margin: 0 0 10%;
+        top: 25vh;
     }
 }
-

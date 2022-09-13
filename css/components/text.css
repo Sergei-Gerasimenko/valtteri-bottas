@@ -7,7 +7,7 @@
     line-height: 1.5;
 }
 
-.text__container {
+.text__container--partners {
     margin: 2% 0 0 0;
 }
 
@@ -15,19 +15,31 @@
     .text {
         font-size: 14px;
     }
-    .text__container {
+    .text__container--partners  {
         margin: 5% 0 0% 0;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .text {
+    .text__container {
         display: none;
+    }
+    .text__container--partners {
+        display: block;
     }
 }
 
 @media screen and (min-width: 375px) {
     .text--hidden  {
+        display: none;
+    }
+    .text__container--partners {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text__container--partners {
         display: none;
     }
 }

@@ -38,6 +38,10 @@
         align-items: center;
         top: 16vh;
     }
+
+    .title-text--partners {
+        top: 0;
+    }
 }
 
 @media screen and (max-width: 375px) {

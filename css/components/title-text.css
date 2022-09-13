@@ -17,6 +17,14 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .title-text {
+        position: relative;
+        align-items: center;
+        top: 16vh;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .title-text {
         margin: 0 0 10%;

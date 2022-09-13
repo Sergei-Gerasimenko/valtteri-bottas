@@ -14,5 +14,7 @@
 
 @media screen and (max-width: 767px) {
     .about-portrait__img {
+        height: 72vh;
+        margin: 0%;
     }
 }

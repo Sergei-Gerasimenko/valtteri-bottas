@@ -8,12 +8,11 @@
 
 @media screen and (max-width: 1200px) {
     .about-portrait__img {
-        
-    }
+        height: 74vh;
+        margin-left: 10%;
 }
 
 @media screen and (max-width: 767px) {
     .about-portrait__img {
-        
     }
 }

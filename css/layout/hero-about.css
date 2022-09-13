@@ -16,13 +16,11 @@
 
 @media screen and (max-width: 1200px) {
     .hero-about {
-        width: 100%
+        padding: 0 30px;
+        
     }
     .hero-about__content {
-        height: 74vh;
         width: 100%;
-        padding: 0px 30px;
-    }
 }
 
 
@@ -33,15 +31,11 @@
     .hero-about__content {
         display: flex;
         flex-direction: column-reverse;
-        padding: 0 15% 0 14%;
-        height: 85vh;
         width: 100%;
     }
 }
 
 @media screen and (max-width: 375px) {
     .hero-about__content {
-        height: 75vh;
-        padding: 0px 7% 0 6%;
     }
 }

@@ -1,6 +1,5 @@
 .about-portrait__img {
     position: absolute;
-    float: left;
     object-fit: cover;
     bottom: 0;
     height: 83vh;    

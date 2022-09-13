@@ -12,10 +12,23 @@
     margin-bottom: 3vh;
 }
 
+.title-text--partners {
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
 @media screen and (max-width: 1200px) {
     .title-text {
         align-items: flex-start;
         top: 26vh;
+    }
+
+    .title-text--partners {
+        width: 100%;
+        position: relative;
+        top: 0;
+        text-align: start;
     }
 }
 
@@ -31,12 +44,4 @@
     .title-text {
         top: 25vh;
     }
-}
-
-.title-text--partners {
-    width: 100%;
-    position: relative;
-    top: 0;
-    flex-direction: unset;
-    align-items: flex-start;
 }

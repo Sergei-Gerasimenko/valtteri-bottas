@@ -42,18 +42,20 @@
 
     .logo__container {
         display: flex;
+        margin: 6% 0 0 0;
     }
 
     .logo__partners--left {
-        padding: 16px 20px;
+        padding: 16px 19px;
+        margin-right: 4%;
     }
     
     .logo__partners--right {
-        padding: 19px 20px;
+        padding: 19px 19px;
     }
 }
 
 .logo__container {
     display: flex;
-    margin: 5% 0 0 0;
+    margin: 4vh 0 0 0;
 }

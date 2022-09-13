@@ -15,6 +15,9 @@
     .text {
         font-size: 14px;
     }
+    .text__container {
+        margin: 5% 0 0% 0;
+    }
 }
 
 @media screen and (max-width: 767px) {

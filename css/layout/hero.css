@@ -24,3 +24,12 @@
 .hero__img {
     margin-right: 3%;
 }
+
+@media screen and (max-width: 1200px) {
+    .hero__content--partners {
+        width: 89%;
+    }
+    .hero__img {
+        margin-right: 7%;
+    }    
+}

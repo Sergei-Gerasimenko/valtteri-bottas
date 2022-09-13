@@ -10,6 +10,21 @@
     }
 }
 
-.logo__partners {
+.logo__container {
+    padding: 1% 0;
     display: flex;
 }
+
+.logo__partners--left {
+    padding: 20px 24px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px; 
+}
+
+.logo__partners--right {
+    padding: 27px 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+} 

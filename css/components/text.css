@@ -7,6 +7,10 @@
     line-height: 1.5;
 }
 
+.text__container {
+    margin: 4% 0;
+}
+
 @media screen and (max-width: 1200px) {
     .text {
         font-size: 14px;
@@ -15,6 +19,12 @@
 
 @media screen and (max-width: 767px) {
     .text {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .text--hidden  {
         display: none;
     }
 }

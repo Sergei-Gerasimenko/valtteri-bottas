@@ -1,19 +1,19 @@
 .about-portrait__img {
+    position: absolute;
     float: left;
     object-fit: cover;
-    margin-right: 88px;
+    bottom: 0;
+    height: 83vh;    
 }
 
 @media screen and (max-width: 1200px) {
     .about-portrait__img {
-        margin: 0 16px 0 10%;
+        
     }
-    
 }
 
 @media screen and (max-width: 767px) {
     .about-portrait__img {
-        margin: 0;
+        
     }
 }
-

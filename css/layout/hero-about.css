@@ -9,9 +9,8 @@
 
 .hero-about__content {
     display: flex;
-    position: absolute;
-    bottom: 0;
-    height: 83vh;
+    position: relative;
+    height: 100vh;
     width: 69%;
 }
 

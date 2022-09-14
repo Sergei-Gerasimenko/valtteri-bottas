@@ -35,6 +35,24 @@
     right: 0;
 }
 
+.main-bg__left > img {
+    object-fit: cover;
+}
+
+.main-bg__up {
+    position: absolute;
+    display: flex;
+}
+
+.main-bg__up::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(180deg, #1F1F1F 0%, rgba(31, 31, 31, 0) 100%);
+    transform: rotate(180deg);
+}
+
 .main-bg__right::after {
     position: absolute;
     height: 100%;
@@ -60,5 +78,5 @@
 @media screen  and (min-width: 375px) {
     .main-bg__up {
         display: none;
-    }  
+    } 
 }

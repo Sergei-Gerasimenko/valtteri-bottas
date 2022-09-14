@@ -26,6 +26,21 @@
     height: 100%;
 }
 
+@media screen and (max-width: 1200px) {
+    .partners-content {
+        margin-left: 6%;
+        margin-right: 5%;
+    }
+
+    .partners__img {
+        flex-basis: 38%;
+    }
+
+    .partners-description {
+        width: 55%;
+    }
+}
+
 @media screen and (min-width: 375px) {
     .partners-text__mobile {
         display: none;

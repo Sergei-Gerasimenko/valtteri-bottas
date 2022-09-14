@@ -12,34 +12,3 @@
     align-items: center;
     flex-direction: column;
 }
-
-.hero__content--partners {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 79%;
-}
-
-.hero__img {
-    margin-right: 3%;
-}
-
-@media screen and (max-width: 1200px) {
-    .hero__content--partners {
-        width: 89%;
-    }
-    .hero__img {
-        margin-right: 7%;
-    }    
-}
-
-@media screen and (max-width: 767px) {
-    .hero__content--partners {
-        flex-direction: column-reverse;
-        align-items: center;
-        height: 100vh;
-    }
-    .hero__img {
-        margin-right: 0;
-    }    
-}

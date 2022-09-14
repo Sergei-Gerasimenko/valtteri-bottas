@@ -1,51 +1,37 @@
 .title-text {
-    position: absolute;
-    right: 0;
-    width: 43%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    top: 22vh;
+    
 }
 
 .about__content-title {
-    margin-bottom: 3vh;
+    
 }
 
 .title-text--partners {
-    width: 100%;
-    position: relative;
-    top: 0;
+    
 }
 
 @media screen and (max-width: 1200px) {
     .title-text {
-        align-items: flex-start;
-        top: 26vh;
+        
     }
 
     .title-text--partners {
-        width: 100%;
-        position: relative;
-        top: 0;
-        text-align: start;
+        
     }
 }
 
 @media screen and (max-width: 767px) {
     .title-text {
-        position: relative;
-        align-items: center;
-        top: 16vh;
+        
     }
 
     .title-text--partners {
-        top: 0;
+        
     }
 }
 
 @media screen and (max-width: 375px) {
     .title-text {
-        top: 25vh;
+        
     }
 }

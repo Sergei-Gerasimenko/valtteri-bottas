@@ -61,3 +61,30 @@
         display: none;
     }    
 }
+
+@media screen and (max-width: 375px) {
+    .partners-text__container {
+        display: none;
+    }
+
+    .partners-content {
+        top: 6vh;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+
+    .partners__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .partners-text__mobile {
+        display: flex;
+        justify-content: center;        
+    }
+
+    .partners-description {
+        top: 17vh;
+    }
+}
+

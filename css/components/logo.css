@@ -22,6 +22,11 @@
     border-radius: 4px;
 } 
 
+.logo__container {
+    display: flex;
+    margin: 4vh 0 0 0;
+}
+
 @media screen and (max-width: 1200px) {
     .logo__icon {
         width: 59px;
@@ -60,7 +65,29 @@
     }
 }
 
-.logo__container {
-    display: flex;
-    margin: 4vh 0 0 0;
+@media screen and (max-width: 375px) {
+    .logo__left {
+        width: 63px;
+        height: 38px;
+    }
+    
+    .logo__right {
+        width: 107px;
+        height: 36px;
+    }
+
+    .logo__container {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .logo__partners--left {
+        padding: 20px 24px;
+        margin-right: 4%;
+    }
+    
+    .logo__partners--right {
+        padding: 21px 24px;
+    }
 }

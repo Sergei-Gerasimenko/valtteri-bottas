@@ -10,6 +10,18 @@
     display: flex;
     width: 100%;
     height: 100%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 10%;
+    margin-right: 11%;
+}
+
+.partners__img {
+    display: flex;
+    flex-basis: 47%;
+}
+
+.partners__img > img {
+    width: 100%;
+    height: 100%;
 }

@@ -14,13 +14,6 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
-    .partners__content {
-        margin-left: 6%;
-        margin-right: 5%;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .partners__content {
         flex-direction: column-reverse;

@@ -6,22 +6,22 @@
     border-radius: 4px;
 }
 
-.table-caunter {
+.table__caunter {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
 }
 
-.table-caunter:last-child {
+.table__caunter:last-child {
     margin-bottom: 0;
 }
 
-.table-item {
+.table__item {
     display: block;
     margin-right: 24px;
 }
 
-.table-item:last-child {
+.table__item:last-child {
     margin: 0;
 }
 

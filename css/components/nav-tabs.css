@@ -1,0 +1,40 @@
+.nav-tabs {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.nav-tabs__btn {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+    transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #AFB8B7;
+    padding: 8px 24px 10px;
+    margin-right: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.nav-tabs__btn:last-child {
+    margin-right: 0;
+}
+
+.nav-tabs__btn:hover {
+    background-color: #0B79CB;
+    border-color: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}

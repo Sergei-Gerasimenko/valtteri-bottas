@@ -11,6 +11,10 @@
         align-items: flex-start;
         flex-basis: 39%;
     }
+
+    .about-description__text {
+        margin-top: 3vh;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -19,6 +23,10 @@
         padding-bottom: 0;
         padding-top: 16vh;
         width: 60%;
+    }
+
+    .about-description__text {
+        display: none;
     }
 }
 

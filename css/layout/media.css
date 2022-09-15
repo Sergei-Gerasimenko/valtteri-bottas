@@ -7,9 +7,9 @@
     height: 100vh;
 }
 
-.media__content {
+.media__head {
     display: flex;
     text-align: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
 }

@@ -1,0 +1,17 @@
+.partners-img {
+    display: flex;
+    flex-basis: 36%;
+    margin-right: 3%;
+}
+
+.partners-img > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px) { 
+    .partners-img {
+        flex-basis: 39%;
+    }
+}

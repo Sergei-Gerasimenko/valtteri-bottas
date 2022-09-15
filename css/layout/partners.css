@@ -17,6 +17,7 @@
 @media screen and (max-width: 767px) {
     .partners__content {
         flex-direction: column-reverse;
+        justify-content: space-between;
         margin-left: 18%;
         margin-right: 18%;
     }

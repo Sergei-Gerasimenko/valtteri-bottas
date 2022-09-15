@@ -18,7 +18,11 @@
     .partners-description {
         position: relative;
         width: 100%;
-        top: 20vh;
+        top: 21vh;
+    }
+
+    .partners-description__title {
+        margin-bottom: 2vh;
     }
 }
 

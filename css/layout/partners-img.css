@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 1200px) { 
     .partners-img {
-        flex-basis: 39%;
+        flex-basis: 34%;
+        margin-right: 6%;
     }
 }

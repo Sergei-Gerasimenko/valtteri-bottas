@@ -5,29 +5,11 @@
     font-size: 20px;
     color: #AFB8B7;
     line-height: 1.5;
-}
-
-.text__container--partners {
-    margin: 2% 0 0 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 1200px) {
     .text {
         font-size: 14px;
     }
-}
-
-@media screen and (max-width: 767px) {
-
-}
-
-@media screen and (min-width: 375px) {
-    .text--hidden  {
-        display: none;
-    }
-
-}
-
-@media screen and (max-width: 375px) {
-    
 }

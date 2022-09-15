@@ -1,0 +1,30 @@
+.about-img {
+    margin-right: 5%;
+    flex-basis: 35%;
+}
+
+.about-img  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .about-img {
+        flex-basis: 41%;
+        margin-right: 2%;
+        margin-left: 9%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-img {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about-img {
+        flex-basis: 58%;
+    }
+}

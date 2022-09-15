@@ -4,6 +4,16 @@
     flex-basis: 40%;
 }
 
+@media screen and (max-width: 1200px) {
+    .partners-description__title {
+        margin-bottom: 3vh;
+    }
+
+    .partners-description {
+        flex-basis: 48%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .partners-description {
         position: relative;

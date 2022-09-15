@@ -28,17 +28,19 @@
 
 @media screen and (max-width: 375px) {
     .partners-description {
-        top: 17vh;
+        top: 18vh;
     }
 
     .partners-description__title {
         display: flex;
         justify-content: center;
+        margin-bottom: 1vh;
     }
 
     .partners-description__text-mobile {
         display: flex;
-        justify-content: center;        
+        justify-content: center;
+        margin-bottom: 3vh;       
     }
 
     .partners-description__text {

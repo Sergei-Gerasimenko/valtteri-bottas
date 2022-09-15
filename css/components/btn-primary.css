@@ -8,6 +8,7 @@
     border-style: none;
     cursor: pointer;
     padding: 18px 74px 22px;
+    z-index: 1;
 }
 
 .btn-primary::after {

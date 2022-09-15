@@ -8,6 +8,7 @@
     border-style: none;
     cursor: pointer;
     padding: 18px 95px 22px;
+    z-index: 1;
 }
 
 .btn-secondry::after {

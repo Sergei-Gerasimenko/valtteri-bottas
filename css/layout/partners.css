@@ -5,86 +5,35 @@
     justify-content: center;
 }
 
-.partners-content {
+.partners__content {
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 11%;
-}
-
-.partners__img {
-    display: flex;
-    flex-basis: 47%;
-}
-
-.partners__img > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 @media screen and (max-width: 1200px) {
-    .partners-content {
+    .partners__content {
         margin-left: 6%;
         margin-right: 5%;
-    }
-
-    .partners__img {
-        flex-basis: 38%;
-    }
-
-    .partners-description {
-        width: 55%;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .partners-content {
+    .partners__content {
         flex-direction: column-reverse;
         margin-left: 18%;
         margin-right: 18%;
     }
-
-    .partners-description {
-        position: relative;
-        width: 100%;
-        top: 20vh;
-    }
-}
-
-@media screen and (min-width: 375px) {
-    .partners-text__mobile {
-        display: none;
-    }    
 }
 
 @media screen and (max-width: 375px) {
-    .partners-text__container {
-        display: none;
-    }
-
-    .partners-content {
+    .partners__content {
         top: 6vh;
         margin-left: 3%;
         margin-right: 2%;
-    }
-
-    .partners__title {
-        display: flex;
-        justify-content: center;
-    }
-
-    .partners-text__mobile {
-        display: flex;
-        justify-content: center;        
-    }
-
-    .partners-description {
-        top: 17vh;
     }
 }
 

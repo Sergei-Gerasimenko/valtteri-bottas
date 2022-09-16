@@ -41,3 +41,9 @@
         width: 31%;
     }
 }
+
+@media screen and (min-width: 767px) {
+    .media-card:nth-child(3) {
+        display: none;
+    }
+}

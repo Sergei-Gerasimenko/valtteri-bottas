@@ -28,4 +28,8 @@
     .media {
         padding: 0 4% 0 4%;
     }
+
+    .media__head {
+        margin-bottom: 4vh;
+    }
 }

@@ -1,4 +1,5 @@
 .media-card {
+    position: relative;
     display: flex;
     margin-right: 18px;
     height: 100%;
@@ -13,4 +14,25 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.media-card:last-child::after {
+    position: absolute;
+    content: "see all photos";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 121, 203, 0.9);
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+    .media-card:last-child::after {
+        font-size: 14px;
+        line-height: 1.285;
+    }
 }

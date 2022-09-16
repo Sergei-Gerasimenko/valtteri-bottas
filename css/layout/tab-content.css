@@ -1,15 +1,10 @@
-.tabs-content {
+.tab-content {
     display: flex;
     width: 100%;
     height: 100%;
 }
 
-.tabs-content__item {
+.tab-content__item {
     display: flex;
-}
-
-.tabs-content__item > img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    align-items: center;
 }

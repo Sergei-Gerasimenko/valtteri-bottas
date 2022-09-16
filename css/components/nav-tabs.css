@@ -41,6 +41,7 @@
 @media screen and (max-width: 1200px) {
     .nav-tabs {
         padding: 8px;
+        margin: 0;
     }
 
     .nav-tabs__btn {

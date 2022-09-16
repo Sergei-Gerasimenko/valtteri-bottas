@@ -23,3 +23,9 @@
     width: 100%;
     flex-basis: 28%;
 }
+
+@media screen and (max-width: 1200px) {
+    .media {
+        padding: 0 4% 0 4%;
+    }
+}

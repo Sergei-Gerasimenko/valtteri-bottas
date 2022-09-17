@@ -40,8 +40,8 @@
 
 @media screen and (max-width: 767px) {
     .media__content {
-        margin-bottom: 16vh;
-        flex-basis: 26%;
+        margin-bottom: 39vh;
+        flex-basis: 20%;
     }
 }
 

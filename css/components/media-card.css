@@ -19,7 +19,7 @@
 
 .media-card:last-child::after {
     position: absolute;
-    content: "see all photos";
+    content: "See all photos";
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,8 @@
     }
 
     .media-card {
-        width: 31%;
+        width: 50%;
+        margin: 0 15px;
     }
 }
 

@@ -32,4 +32,8 @@
     .media__head {
         margin-bottom: 4vh;
     }
+
+    .media__content {
+        flex-basis: 37%;
+    }
 }

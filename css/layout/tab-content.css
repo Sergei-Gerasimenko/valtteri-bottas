@@ -16,6 +16,12 @@
     margin: 0 -9px;
 }
 
+@media screen and (max-width: 1200px) {
+    .tab-content__item {
+        margin: 0 -15px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .tab-content__item {
         flex-wrap: wrap;

@@ -27,6 +27,6 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
-        margin-bottom: 43vh;
+        margin: -15px;
     } 
 }

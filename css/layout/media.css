@@ -51,7 +51,11 @@
     }
 
     .media__content {
-        margin-bottom: 32vh;
-    flex-basis: 15%;
+        margin-bottom: 39vh;
+        flex-basis: 15%;
+    }
+
+    .media__head {
+        flex-direction: column;
     }
 }

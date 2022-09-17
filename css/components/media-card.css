@@ -1,12 +1,8 @@
 .media-card {
     position: relative;
     display: flex;
-    margin-right: 18px;
+    margin: 0px 9px;
     height: 100%;
-}
-
-.media-card:last-child {
-    margin: 0;
 }
 
 .media-card > img {
@@ -37,8 +33,6 @@
     }
 
     .media-card {
-        margin-right: 30px;
-        width: 31%;
     }
 }
 

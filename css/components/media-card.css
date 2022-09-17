@@ -3,6 +3,7 @@
     display: flex;
     margin: 0px 9px;
     height: 100%;
+    width: 100%;
 }
 
 .media-card > img {
@@ -10,6 +11,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.media-card:last-child {
+    width: 50%;
 }
 
 .media-card:last-child::after {
@@ -33,6 +38,7 @@
     }
 
     .media-card {
+        width: 31%;
     }
 }
 

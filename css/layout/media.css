@@ -6,7 +6,7 @@
     width: 100%;
     height: 100vh;
     flex-direction: column;
-    padding: 0 10% 0 10%;
+    padding: 0 192px 0 192px;
 }
 
 .media__head {
@@ -35,5 +35,23 @@
 
     .media__content {
         flex-basis: 37%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .media__content {
+        margin-bottom: 16vh;
+        flex-basis: 26%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .media {
+        padding: 0 15px;
+    }
+
+    .media__content {
+        margin-bottom: 32vh;
+    flex-basis: 15%;
     }
 }

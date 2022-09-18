@@ -7,6 +7,11 @@
     color: #fff;
 }
 
+.second-title--blue {
+    color: #0B79CB;
+    margin: 0 12px;
+}
+
 @media screen and (max-width: 1200px) {
     .second-title {
         font-size: 20px;

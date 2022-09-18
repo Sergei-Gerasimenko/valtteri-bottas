@@ -25,6 +25,11 @@
     z-index: -1;
 }
 
+.btn-secondry--narrow {
+    width: 29%;
+    padding: 18px 0px 22px;
+}
+
 .btn-secondry:hover::after {
     outline: #01CDBA;
     background-color: #01CDBA;

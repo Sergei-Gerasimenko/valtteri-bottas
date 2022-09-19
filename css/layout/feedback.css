@@ -1,0 +1,23 @@
+.feedback {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    width: 600px;
+    height: 89vh;
+    bottom: 0;
+    right: 0;
+    background-color: #313131;
+    padding: 106px 100px 0px 103px;
+    z-index: 1;
+}
+
+.feedback__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    width: 100%;
+    margin-bottom: 2vh;
+}

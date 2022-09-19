@@ -37,7 +37,19 @@
     .contact-info {
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 375px) {
+    .contact-info {
+        align-items: center;
+    }
 
     .contact-info__item {
+        align-items: center;
+    }
+
+    .contact-info__btn {
+        display: flex;
+        justify-content: center;
     }
 }

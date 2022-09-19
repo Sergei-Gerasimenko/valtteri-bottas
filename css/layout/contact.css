@@ -19,3 +19,14 @@
         margin-bottom: 6vh;
     }    
 }
+
+@media screen and (max-width: 375px) {
+    .contact__content-title {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact__content-suptitle {
+        align-items: center;
+    }
+}

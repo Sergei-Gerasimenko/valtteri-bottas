@@ -18,3 +18,17 @@
     font-size: 20px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1200px) {
+    .contact-info { 
+        margin: 0 -40px;
+    }
+
+    .contact-info__link, .contact-info__item {
+        font-size: 14px;
+    }
+    
+    .contact-info__item {
+        margin: 0 40px 9vh;
+    }
+}

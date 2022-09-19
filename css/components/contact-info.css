@@ -32,3 +32,12 @@
         margin: 0 40px 9vh;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .contact-info__item {
+    }
+}

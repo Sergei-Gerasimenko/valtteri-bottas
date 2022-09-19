@@ -54,3 +54,15 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .btn-secondry--narrow {
+        width: 66%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .btn-secondry--narrow {
+        width: 79%;
+    }
+}

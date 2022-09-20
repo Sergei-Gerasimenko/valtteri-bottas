@@ -21,3 +21,21 @@
     width: 100%;
     margin-bottom: 2vh;
 }
+
+@media screen and (max-width: 1200px) {
+    .feedback {
+        width: 462px;
+        height: 82vh;
+        padding: 82px 100px 0px 103px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .feedback {
+        border-radius: 12px 12px 0px 0px;
+        width: 100%;
+        height: 87vh;
+
+    }
+    
+}

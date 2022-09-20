@@ -68,6 +68,16 @@
     object-fit: cover;
 }
 
+@media screen and (max-width: 545px) {
+    .main-bg__right {
+        right: -130px;
+    }
+
+    .main-bg__left {
+        left: -130px;
+    }
+}
+
 
 @media screen and (max-width: 375px) {
     .main-bg__right, .main-bg__left {

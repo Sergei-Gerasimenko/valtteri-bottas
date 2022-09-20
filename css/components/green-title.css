@@ -8,6 +8,13 @@
     color:#01CDBA;
 }
 
+@media screen and (max-width: 1440px) {
+    .green-title {
+        font-size: 100px;
+    }
+    
+}
+
 @media screen and (max-width: 1200px) {
     .green-title {
         font-size: 40px;

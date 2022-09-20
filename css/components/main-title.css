@@ -12,6 +12,13 @@
     padding: 0px 25px;
 }
 
+@media screen and (max-width: 1440px) {
+    .main-title {
+        font-size: 130px;
+    }
+    
+}
+
 @media screen and (max-width: 1200px) {
     .main-title {
         font-size: 60px;

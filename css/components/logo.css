@@ -3,91 +3,9 @@
     height: 49px;
 }
 
-.logo__partners--left {
-    display: flex;
-    align-items: center;
-    padding: 20px 24px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 4px; 
-    margin: 0% 2% 0 0;
-}
-
-.logo__partners--right {
-    display: flex;
-    align-items: center;
-    padding: 27px 24px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid #FFFFFF;
-    border-radius: 4px;
-} 
-
-.logo__container {
-    display: flex;
-    margin: 4vh 0 0 0;
-}
-
 @media screen and (max-width: 1200px) {
     .logo__icon {
         width: 59px;
         height: 41px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .logo__icon {
-        width: 59px;
-        height: 41px;
-    }
-
-    .logo__left {
-        width: 100px;
-        height: 61px;
-    }
-    
-    .logo__right {
-        width: 167px;
-        height: 55px;
-    }
-
-    .logo__container {
-        display: flex;
-        margin: 6% 0 0 0;
-    }
-
-    .logo__partners--left {
-        padding: 16px 19px;
-        margin-right: 4%;
-    }
-    
-    .logo__partners--right {
-        padding: 19px 19px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .logo__left {
-        width: 63px;
-        height: 38px;
-    }
-    
-    .logo__right {
-        width: 107px;
-        height: 36px;
-    }
-
-    .logo__container {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-    }
-
-    .logo__partners--left {
-        padding: 20px 24px;
-        margin-right: 4%;
-    }
-    
-    .logo__partners--right {
-        padding: 21px 24px;
     }
 }

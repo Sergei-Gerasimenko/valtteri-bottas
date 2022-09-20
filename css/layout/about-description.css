@@ -7,22 +7,18 @@
     align-items: center;
 }
 
-
-
 @media screen and (max-width: 1200px) {
     .about-description {
         align-items: flex-start;
         flex-basis: 39%;
     }
-
-    .about-description__text {
-        
-    }
 }
 
 @media screen and (max-width: 767px) {
     .about-description {
-        margin-top: 11vh;
+        justify-content: end;
+        align-items: center;
+        margin-bottom: 4vh;
     }
 
     .about-description__text {
@@ -32,6 +28,8 @@
 
 @media screen and (max-width: 375px) {
     .about-description {
-        
+        justify-content: end;
+        align-items: center;
+        margin-bottom: 7vh;
     }
 }

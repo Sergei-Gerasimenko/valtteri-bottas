@@ -16,40 +16,24 @@
 
 @media screen and (max-width: 767px) {
     .partners-description {
-        position: relative;
-        width: 100%;
-        top: 21vh;
-    }
-
-    .partners-description__title {
-        margin-bottom: 2vh;
+        flex-basis: 41%;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .partners-description {
-        top: 18vh;
-    }
-
-    .partners-description__title {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 1vh;
-    }
-
-    .partners-description__text-mobile {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 3vh;       
-    }
-
     .partners-description__text {
         display: none;
+    }
+
+    .partners-description {
+        align-items: center;
+        width: 87%;
+        flex-basis: 45%;
     }
 }
 
 @media screen and (min-width: 375px) {
     .partners-description__text-mobile {
         display: none;
-    }    
+    }
 }

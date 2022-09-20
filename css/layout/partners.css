@@ -17,17 +17,14 @@
 @media screen and (max-width: 767px) {
     .partners__content {
         flex-direction: column-reverse;
-        justify-content: space-between;
-        margin-left: 18%;
-        margin-right: 18%;
+        justify-content: flex-start;
+        padding: 0 18%;
     }
 }
 
 @media screen and (max-width: 375px) {
     .partners__content {
-        top: 6vh;
-        margin-left: 3%;
-        margin-right: 2%;
+        padding: 0 0%;
+        bottom: -52px;
     }
 }
-

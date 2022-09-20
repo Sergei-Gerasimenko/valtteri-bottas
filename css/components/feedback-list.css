@@ -45,6 +45,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    line-height: 1.1;
     color: #AFB8B7;
 }
 
@@ -63,3 +64,17 @@
     color: #AFB8B7;
 }
  
+@media screen and (max-width: 1200px) {
+    .feeaback-list__lable, .feeaback-list__select {
+        font-size: 14px;
+    }
+    .feedback-list__item {
+        margin: 3px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .feedback-list__item {
+        margin: 20px 0px;
+    }
+}

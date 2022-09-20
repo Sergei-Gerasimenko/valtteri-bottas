@@ -34,3 +34,7 @@
         font-size: 14px;
     }
 }
+
+.btn-primary--wide {
+    width: 100%;
+}

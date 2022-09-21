@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
     width: 600px;
     height: 89vh;
     bottom: 0;
@@ -11,6 +10,7 @@
     background-color: #313131;
     padding: 106px 100px 0px 103px;
     z-index: 1;
+    transform: translateX(100%);
 }
 
 .feedback__container {
@@ -27,6 +27,7 @@
         width: 462px;
         height: 82vh;
         padding: 82px 100px 0px 103px;
+        justify-content: end;
     }
 }
 
@@ -35,16 +36,23 @@
         border-radius: 12px 12px 0px 0px;
         width: 100%;
         height: 87vh;
-
     }
 }
 
 @media screen and (max-width: 575px) {
     .feedback {
         padding: 30px 44px 0px 35px;
+        display: flex;
+        justify-content: end;
     }
 
     .feedback__container {
         align-items: center;
     }
+}
+
+@media screen and (max-width: 375px) {
+    .feedback {
+        height: 66vh;
+    } 
 }

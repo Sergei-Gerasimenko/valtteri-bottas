@@ -1,0 +1,40 @@
+.btn-primary {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+    padding: 18px 74px 22px;
+    z-index: 1;
+}
+
+.btn-primary::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5%;
+    left: 5%;
+    content: "";
+    background: linear-gradient(259.83deg, #01CDBA 0%, #0D72CD 100%);
+    transform: skew(-18deg);
+    transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+    z-index: -1;
+}
+
+.btn-primary:hover::after {
+    background: #0B79CB;
+}
+
+@media screen and (max-width: 1200px) {
+    .btn-primary {
+        padding: 13px 53px 16px 55px;
+        font-size: 14px;
+    }
+}
+
+.btn-primary--wide {
+    width: 100%;
+}

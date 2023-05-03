@@ -1,0 +1,80 @@
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.counter__arrows {
+    display: flex;
+}
+
+.counter__arrow-shell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter__arrows-prev, .counter__arrows-next {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin: 0 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.counter__numbers {
+    display: flex;
+}
+
+.counter__numbers-current, .couner__number-total {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+    font-style: italic;
+}
+
+.counter__numbers-line {
+    height: 31px;
+    width: 5px;
+    background: #fff;
+    margin: auto 6px 5px 12px;
+    transform: skewX(-40deg);
+}
+
+@media screen and (max-width: 1200px) {
+    .counter__numbers-current, .couner__number-total {
+        font-size: 22px;
+    }
+    .counter__numbers-line {
+        height: 18px;
+        width: 2px;
+        margin: auto 4px 1px 6px;
+    }
+    .counter__arrow-shell {
+        width: 32px;
+        height: 32px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        margin-right: 20px;
+        transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+    }
+    .counter__arrow-shell:hover {
+        background-color: #0B79CB;
+        border-color: #0B79CB;
+    }
+    .counter__arrows-prev, .counter__arrows-next {
+        margin: 0px;
+        height: 12px;
+        width: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .counter {
+        position: absolute;
+        transform: rotate(-90deg);
+        right: -53px;
+        bottom: 80px;
+    }
+}

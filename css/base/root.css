@@ -1,0 +1,22 @@
+:root {
+    --z-index-sticky: 1010;
+    --z-index-menu: 1011;
+    --z-index-fixed: 1012;
+    --padding-offset: 35px 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    :root {
+        --padding-offset: 29px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    :root {
+        --padding-offset: 20px 15px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,26 @@
+.table {
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.table__caunter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.table__caunter:last-child {
+    margin-bottom: 0;
+}
+
+.table__item {
+    display: block;
+    margin-right: 24px;
+}
+
+.table__item:last-child {
+    margin: 0;
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Exo 2";
+    src: url("../../fonts/exo2-regular.woff2") format("woff2"),
+        url("../../fonts/exo2-regular.woff") format("woff"),
+        url("../../fonts/exo2-regular.ttf") format("ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Exo 2";
+    src: url("../../fonts/exo2-medium.woff2") format("woff2"),
+        url("../../fonts/exo2-medium.woff") format("woff"),
+        url("../../fonts/exo2-medium.ttf") format("ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Exo 2";
+    src: url("../../fonts/exo2-bold.woff2") format("woff2"),
+        url("../../fonts/exo2-bold.woff") format("woff"),
+        url("../../fonts/exo2-bold.ttf") format("ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Exo 2";
+    src: url("../../fonts/exo2-black.woff2") format("woff2"),
+        url("../../fonts/exo2-black.woff") format("woff"),
+        url("../../fonts/exo2-black.ttf") format("ttf");
+    font-weight: 900;
+}
+
+body {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+}

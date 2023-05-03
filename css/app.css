@@ -1,0 +1,14 @@
+/* base */
+@import "./base/_.css";
+/* loyout */
+@import "./layout/_.css";
+/* companents */
+@import "./components/_.css";
+/* companents */
+@import "./main_bg/_.css";
+/* 
+@media breakpoints
+1200 -> 768 figma
+767 -> 576 figma
+575 -> 375 figma
+*/

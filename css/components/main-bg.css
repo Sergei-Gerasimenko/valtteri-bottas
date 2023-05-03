@@ -1,0 +1,92 @@
+.main-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-bg__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.main-bg__left {
+    position: absolute;
+    left: 0;
+}
+.main-bg__left::after {
+    position: absolute;
+    height: 100%;
+    width: 101%;
+    left: 0;
+    content: "";
+    background: linear-gradient(270deg, #1F1F1F 0%, rgba(31, 31, 31, 0) 100%)
+}
+
+.main-bg__left > img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.main-bg__right {
+    position: absolute;
+    right: 0;
+}
+
+.main-bg__left > img {
+    object-fit: cover;
+}
+
+.main-bg__up {
+    position: absolute;
+    display: flex;
+}
+
+.main-bg__up::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(180deg, #1F1F1F 0%, rgba(31, 31, 31, 0) 100%);
+    transform: rotate(180deg);
+}
+
+.main-bg__right::after {
+    position: absolute;
+    height: 100%;
+    width: 101%;
+    right: 0;
+    content: "";
+    background: linear-gradient(270deg, #1F1F1F 0%, rgba(31, 31, 31, 0) 100%);
+    transform: rotate(-180deg);
+}
+
+.main-bg__right > img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 545px) {
+    .main-bg__right {
+        right: -130px;
+    }
+
+    .main-bg__left {
+        left: -130px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .main-bg__right, .main-bg__left {
+        display: none;
+    }
+}
+
+@media screen  and (min-width: 375px) {
+    .main-bg__up {
+        display: none;
+    } 
+}

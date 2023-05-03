@@ -1,0 +1,11 @@
+.table-container {
+    display: flex;
+    width: 100%;
+    margin-top: 4vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .table-container {
+        display: none;
+    }
+}

@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>valtteri-bottas</title>
         <link rel="stylesheet" href="./css/app.css">
+        <script src="./js/slider.js"></script>
     </head>
     <body>
         <div class="main-section">    
@@ -41,7 +42,7 @@
                     </button>
                 </div>
             </header>
-            <main class="main-section__item">
+            <!-- <main class="main-section__item">
                 <div class="main-bg"><img class="main-bg__img" src="upload\bg-home.jpg" alt=""></div>
                 <div class="hero">
                     <div class="hero__content">
@@ -61,7 +62,26 @@
                         </div>
                     </div>
                 </div>
-            </main>
+            </main> -->
+            <div class="slider" id="sliderExampleCaptions">
+                <div class="slider__inner">
+                    <div class="slider__inner-item active">
+                        <h1>111111111111111111111</h1>
+                    </div>
+                    <div class="slider__inner-item">
+                        <h1>2222222222222222222222</h1>
+                    </div>
+                    <div class="slider__inner-item">
+                        <h1>33333333333333333333333</h1>
+                    </div>
+                </div>
+                <div class="slider__control counter">
+                    <button class="slider__control-prev" type="button" data-bs-target="#sliderExampleCaptions" data-bs-slide="prev">
+                    </button>
+                    <button class="slider__control-next" type="button" data-bs-target="#sliderExampleCaptions" data-bs-slide="next">
+                    </button>
+                </div>
+            </div>
             <footer class="footer">
                 <div class="footer__content">
                     <div class="social">
@@ -95,16 +115,16 @@
                     </div>
                     <div class="counter">
                         <div class="counter__arrows">
-                        <a href="#" class="counter__arrow-shell">
-                            <svg class="counter__arrows-prev" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.01178 10L14.7559 17.7441L13.5773 18.9226L4.65476 10L13.5773 1.07743L14.7559 2.25594L7.01178 10Z" fill="currentcolor"/>
-                            </svg>
-                        </a>
-                        <a href="#" class="counter__arrow-shell">
-                            <svg class="counter__arrows-next" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9882 9.99998L5.24414 2.2559L6.42265 1.07739L15.3452 9.99998L6.42265 18.9226L5.24414 17.7441L12.9882 9.99998Z" fill="currentcolor"/>
-                            </svg>
-                        </a> 
+                            <a href="#" class="counter__arrow-shell" data-bs-target="#sliderExampleCaptions" data-bs-slide="prev">
+                                <svg class="counter__arrows-prev" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.01178 10L14.7559 17.7441L13.5773 18.9226L4.65476 10L13.5773 1.07743L14.7559 2.25594L7.01178 10Z" fill="currentcolor"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="counter__arrow-shell" data-bs-target="#sliderExampleCaptions" data-bs-slide="next">
+                                <svg class="counter__arrows-next" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9882 9.99998L5.24414 2.2559L6.42265 1.07739L15.3452 9.99998L6.42265 18.9226L5.24414 17.7441L12.9882 9.99998Z" fill="currentcolor"/>
+                                </svg>
+                            </a> 
                         </div>
                         <div class="counter__numbers">
                             <div class="counter__numbers-current">01</div>

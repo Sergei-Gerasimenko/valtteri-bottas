@@ -4,8 +4,7 @@
 @import "./layout/_.css";
 /* companents */
 @import "./components/_.css";
-/* companents */
-@import "./main_bg/_.css";
+/* components: main_bg removed (folder missing) */
 /* 
 @media breakpoints
 1200 -> 768 figma
